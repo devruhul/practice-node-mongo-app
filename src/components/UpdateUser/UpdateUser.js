@@ -42,7 +42,7 @@ const UpdateUser = () => {
             .then(res => res.json())
             .then(data => {
                 if (data.modifiedCount > 0) {
-                    alert("successfully deleted")
+                    alert("successfully updated")
                     setUser({})
                 }
             })
